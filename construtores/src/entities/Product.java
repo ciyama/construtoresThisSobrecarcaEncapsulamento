@@ -35,6 +35,9 @@ public class Product {
 		this.price = price;
 	}
 	
+	public int getQuantity() {
+		return quantity;
+	}
 	
 	public double totalValueInStock() {
 		return price* quantity;
